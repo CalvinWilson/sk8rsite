@@ -323,9 +323,22 @@ button {
 		margin-left: 10px;
 	}
 
+	#nav {
+	width: 445px;
+	clear: left;
+	float: left;
+	}
+
 	#nav li {
-		width: 500px;
+		width: 458px;
+		height: 30px;
 		margin: 5px;
+		text-align: center;
+	}
+
+	#nav li a:before, #nav li a:after {
+		content:"--";
+		padding:0 10px;
 	}
 
 	#socialmedia img {
@@ -460,7 +473,16 @@ button {
 
 	#blackandwhite {
 	position: absolute;
-	top: 2612px;
+	top: 2652px;
     left: 320px;
+	}
+
+	.contact input, textarea {
+	width: 400px;
+	height: 30px;
+	}
+
+	.contact textarea {
+		height: 100px;
 	}
 }
